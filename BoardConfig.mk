@@ -15,7 +15,7 @@
 
 TARGET_BOARD_PLATFORM := mt6750
 
-DEVICE_PATH := device/bluboo/pri6750_66t_m
+DEVICE_PATH := device/oukitel/u15s
 
 MTK_PROJECT_CONFIG ?= $(DEVICE_PATH)/ProjectConfig.mk
 include $(MTK_PROJECT_CONFIG)
@@ -35,7 +35,7 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 enforcing=0 androidboot.selinux=p
 BOARD_MKBOOTIMG_ARGS := --board 1478934223 --ramdisk_offset 0x04f88000 --second_offset 0x00e88000 --tags_offset 0x03f88000
 
 # Kernel properties
-TARGET_PREBUILT_KERNEL := device/bluboo/pri6750_66t_m/prebuilts/kernel
+TARGET_PREBUILT_KERNEL := device/oukitel/u15s/prebuilts/kernel
 
 TARGET_BOOTLOADER_BOARD_NAME := pri6750_66t_m
 
@@ -55,7 +55,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # TWRP
-DEVICE_RESOLUTION := 720x1280
-DEVICE_SCREEN_WIDTH := 720
-DEVICE_SCREEN_HEIGHT := 1280
+DEVICE_RESOLUTION := 1080x1920
+DEVICE_SCREEN_WIDTH := 1080
+DEVICE_SCREEN_HEIGHT := 1920
 TW_THEME := portrait_hdpi

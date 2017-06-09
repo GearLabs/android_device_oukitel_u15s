@@ -12,21 +12,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/bluboo/pri6750_66t_m/full_pri6750_66t_m.mk)
+$(call inherit-product, device/oukitel/u15s/full_u15s.mk)
 
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 
-PRODUCT_NAME := lineage_pri6750_66t_m
-BOARD_VENDOR := bluboo
-PRODUCT_DEVICE := pri6750_66t_m
+PRODUCT_NAME := lineage_u15s
+BOARD_VENDOR := oukitel
+PRODUCT_DEVICE := u15s
 
-PRODUCT_GMS_CLIENTID_BASE := android-bluboo
+PRODUCT_GMS_CLIENTID_BASE := android-oukitel
 
-PRODUCT_MANUFACTURER := Bluboo
-PRODUCT_MODEL := Bluboo Maya Max
+PRODUCT_MANUFACTURER := Oukitel
+PRODUCT_MODEL := Oukitel U15s
 
-PRODUCT_BRAND := Bluboo
-TARGET_VENDOR := bluboo
-TARGET_VENDOR_PRODUCT_NAME := MayaMax
-TARGET_VENDOR_DEVICE_NAME := pri6750_66t_m
+PRODUCT_BRAND := Oukitel
+TARGET_VENDOR := oukitel
+TARGET_VENDOR_PRODUCT_NAME := U15s
+TARGET_VENDOR_DEVICE_NAME := u15s

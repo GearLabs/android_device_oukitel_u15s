@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export DEVICE=pri6750_66t_m
-export VENDOR=bluboo
+export DEVICE=u15s
+export VENDOR=oukitel
 
 if [ $# -eq 0 ]; then
   SRC=adb

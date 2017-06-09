@@ -15,11 +15,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from pri6750_66t_m
-$(call inherit-product, device/bluboo/pri6750_66t_m/device.mk)
+# Inherit from u15s
+$(call inherit-product, device/oukitel/u15s/device.mk)
 
-PRODUCT_DEVICE := pri6750_66t_m
-PRODUCT_NAME := full_pri6750_66t_m
-PRODUCT_BRAND := bluboo
-PRODUCT_MODEL := pri6750_66t_m
-PRODUCT_MANUFACTURER := bluboo
+PRODUCT_DEVICE := u15s
+PRODUCT_NAME := full_u15s
+PRODUCT_BRAND := oukitel
+PRODUCT_MODEL := u15s
+PRODUCT_MANUFACTURER := oukitel
