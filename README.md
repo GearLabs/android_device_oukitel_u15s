@@ -1,6 +1,6 @@
 Copyright 2016 - The CyanogenMod Project
 
-Device configuration for OUKITEL U15s (u15s)
+Device configuration for OUKITEL U15s (pri6750_66t_m - u15s)
 =====================================
 
 Basic   | Spec Sheet
