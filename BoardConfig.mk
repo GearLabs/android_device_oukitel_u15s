@@ -39,6 +39,9 @@ TARGET_PREBUILT_KERNEL := device/oukitel/u15s/prebuilts/kernel
 
 TARGET_BOOTLOADER_BOARD_NAME := pri6750_66t_m
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := u15s, U15S, U15s
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
